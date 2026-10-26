@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated processing outputs
+outputs/
+reports/
+*.zip
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

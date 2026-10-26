@@ -1,0 +1,3 @@
+# Optional AI extension. Keep separate so the classical DIP application stays light.
+-r requirements.txt
+ultralytics>=8.4,<9
